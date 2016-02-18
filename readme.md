@@ -1,10 +1,10 @@
-<h1 size="24">X1PLG Security Plugin</h1>
+<h1>X1PLG Security Plugin</h1>
 <br>
 <br>
-<h1 style="font-size: 24;">How To Install X1PLG</h1>
-<h3 style="font-size: 16;">1. Copy X1PLG and its files to the directory where you want to install it</h3>
-<h3 style="font-size: 16;">2. add require('X1PLG.php'); or include('X1PLG.php'); to the files that you want to protect with X1PLG
-<h3 style="font-size: 16;">3. Done! Your site is now protected by X1PLG</h3>
+<h1>How To Install X1PLG</h1>
+<h3>1. Copy X1PLG and its files to the directory where you want to install it</h3>
+<h3>2. add require('X1PLG.php'); or include('X1PLG.php'); to the files that you want to protect with X1PLG
+<h3 style="font-size: 16px;">3. Done! Your site is now protected by X1PLG</h3>
 <br>
 <br>
 <h1 style="font-size: 16;">Can i use X1PLG for blocking specific IP's to my site</h1>
