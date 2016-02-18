@@ -69,8 +69,7 @@ fclose($file);
 function antiflood () {
 //Anti-flood Settings
 $forbidden_url = forbidden_path();
-$session_directory = 'session'; //Default: session
-$max_connections = 10 ; //Default: 180
+$max_connections = 180 ; //Default: 180
 $connection_interval = 600; //Default: 600 (10 minutes)
 //Anti-Flood Function
 //Set Cookie for saving visit count
