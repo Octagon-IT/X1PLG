@@ -21,3 +21,8 @@
 * Add User Agent Blacklist
 * Add User Agent Whitelist
 </i>
+
+<h1>How To Install X1PLG</h1>
+<h3>1. Copy X1PLG and its files to the directory where you want to install it</h3>
+<h3>2. add require('X1PLG.php'); or include('X1PLG.php'); to the files that you want to protect with X1PLG
+<h3>3. Done! Your site is now protected by X1PLG</h3>
