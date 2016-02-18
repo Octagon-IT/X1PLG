@@ -13,17 +13,21 @@ return true; //Default: true
 
 function blacklist_path() {
 // Blacklist Location
-return $blacklist_url = "X1PLG/ip-blacklist.txt"; //Default: ip-blacklist.txt
+return $blacklist_url = "X1PLG/ip-blacklist.txt"; //Default: X1PLG/ip-blacklist.txt
 }
 
 function whitelist_path() {
 // whitelist Location
-return $whitelist_url = "X1PLG/ip-whitelist.txt"; //Default: ip-whitelist.txt
+return $whitelist_url = "X1PLG/ip-whitelist.txt"; //Default: X1PLG/ip-whitelist.txt
 }
 
 function forbidden_path() {
 //Forbidden page location
-return $forbidden_url = 'X1PLG/forbidden.html'; //Default: forbidden.html
+return $forbidden_url = 'X1PLG/forbidden.html'; //Default: X1PLG/forbidden.html
+}
+function forcecookie_path() {
+//Force Cookie page location
+return $forbidden_url = 'X1PLG/cookie.html'; //Default: X1PLG/cookie.html
 }
 
 function ChckSession() {
@@ -97,7 +101,7 @@ if (ForceCookies() == true) {
 //checks if cookies are enabled
 if (ChckSession() == false) {
 //if cookies are not enabled an force cookies is true
-$uri = forbidden_path();
+$uri = forcecookie_path();
 exit('<meta http-equiv="refresh"content="0;url=' . $uri . '">');
 }
 }
