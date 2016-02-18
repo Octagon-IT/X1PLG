@@ -1,4 +1,4 @@
-<h1 style="size: 24;">X1PLG Security Plugin</h1>
+<h1 style="text-size: 24;">X1PLG Security Plugin</h1>
 <br>
 <br>
 <h1 style="font-size: 24;">How To Install X1PLG</h1>
